@@ -1,4 +1,8 @@
-Project installation:
+
+ Contacts
+  --------
+ 
+ Project installation:
     1. Execute the command "composer update"
     2. Rename the ".env.exaple" file to ".env" file
     3. Execute the command "php artisan key:generate"
