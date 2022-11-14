@@ -1,18 +1,17 @@
 
- Contacts
-  --------
- 
  Project installation:
-    1. Execute the command "composer update"
-    2. Rename the ".env.exaple" file to ".env" file
-    3. Execute the command "php artisan key:generate"
-    4. Execute the command "php artisan cache:clear"
-    5. Execute the command "php artisan config:clear"
-    6. Create "database.sqlite" file in directory "database"
-    7. Execute the command "php artisan migrate"
-    8. Execute the command "php artisan db:seed"
-
-Rules:
-    1. Any user can view the records
-    2. Only authorized user can create records
-    3. Only the creator of a record can edit or delete it
+  --------
+    - Execute the command **composer update**
+    - Rename the **.env.exaple** file to **.env** file
+    - Execute the command **php artisan key:generate**
+    - Execute the command **php artisan cache:clear**
+    - Execute the command **php artisan config:clear**
+    - Create **database.sqlite** file in directory **database**
+    - Execute the command **php artisan migrate**
+    - Execute the command **php artisan db:seed**
+    
+ Rules:
+  --------
+    - Any user can view the records
+    - Only **authorized** user can create records
+    - Only the **creator** of a record can edit or delete it
